@@ -9,7 +9,7 @@ import jsinterop.annotations.JsType;
 public class UpdateResponse
 {
   @JsNonNull
-  public native UpdateResponse success( @JsNullable KeycloakCallback successCallback );
+  public native UpdateResponse then( @JsNullable KeycloakCallback successCallback );
 
   @JsNonNull
   public native UpdateResponse error( @JsNullable KeycloakCallback failureCallback );
