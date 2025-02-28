@@ -290,7 +290,7 @@ public class Keycloak
     };
     getImpl()
       .updateToken( minValiditySeconds )
-            .then(success)
+            .success(success)
             .error(error);
   }
 
